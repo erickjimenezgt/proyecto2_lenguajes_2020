@@ -1,0 +1,20 @@
+digraph {
+	graph [rankdir=TB]
+	ini [shape=point]
+	{
+		rank=same
+		S
+	}
+	S -> z
+	S -> M
+	S -> N
+	S -> z
+	M -> a
+	M -> M
+	M -> a
+	N -> b
+	N -> N
+	N -> b
+	M -> z
+	N -> z
+}

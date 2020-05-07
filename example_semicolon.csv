@@ -1,0 +1,4 @@
+$PILA$ENTRADA$TRANSICIÓN
+0$λ$abc$(i, λ, λ; p, #)
+1$#$abc$(p, λ, λ; q, Q0)
+2$Q0#$abc$CADENA INVALIDA

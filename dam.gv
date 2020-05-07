@@ -1,0 +1,20 @@
+digraph {
+	graph [rankdir=LR]
+	ini [shape=point]
+	i
+	ini -> i
+	p
+	q
+	f [shape=doublecircle]
+	i -> p [label="λ,  λ;  #" len=1.00]
+	p -> q [label="λ,  λ;  S" len=1.00]
+	q -> q [label="λ,  S;  zMNz" len=1.00]
+	q -> q [label="λ,  M;  aMa" len=1.00]
+	q -> q [label="λ,  M;  z" len=1.00]
+	q -> q [label="λ,  N;  bNb" len=1.00]
+	q -> q [label="λ,  N;  z" len=1.00]
+	q -> q [label="a,  a;  λ" len=1.00]
+	q -> q [label="b,  b;  λ" len=1.00]
+	q -> q [label="z,  z;  λ" len=1.00]
+	q -> f [label="λ,  #;  λ" len=1.00]
+}
